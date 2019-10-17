@@ -1,3 +1,12 @@
+///////////////////REPLACED WITH C# VERSION. LEAVING FOR REFERENCE////////////////////////
+///////////////////REPLACED WITH C# VERSION. LEAVING FOR REFERENCE////////////////////////
+///////////////////REPLACED WITH C# VERSION. LEAVING FOR REFERENCE////////////////////////
+///////////////////REPLACED WITH C# VERSION. LEAVING FOR REFERENCE////////////////////////
+///////////////////REPLACED WITH C# VERSION. LEAVING FOR REFERENCE////////////////////////
+///////////////////REPLACED WITH C# VERSION. LEAVING FOR REFERENCE////////////////////////
+
+
+
 import * as alt from 'alt';
 //import * as chat from 'chat';
 import { RegisterCamPoint } from '../configuration/coordinates.mjs';

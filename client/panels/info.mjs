@@ -26,5 +26,9 @@ export function closeDialogue() {
 
 // Routed to the server; to set the user's roleplay info.
 function setRoleplayInfo(roleplayinfo) {
-    alt.emitServer('character:SetRoleplayInfo', roleplayinfo);
+    alt.log("DATA: ");
+    for (const [key, value] of Object.entries(roleplayinfo)) {
+        alt.log(key, value);
+      }
+    alt.emitServer('character:SetRoleplayInfo', JSON.stringify(roleplayinfo));
 }
